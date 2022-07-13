@@ -1,6 +1,6 @@
 # movie-server
 Created a local movie server using NodeJS   
-> using http module of nodejs 
+> using express module of nodejs 
 
 ## How to install NodeJs
 - Go to [nodejs.org](https://nodejs.org/en/download/) To Download.
