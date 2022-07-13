@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="styles.css">-->
+    <title>Document</title>
+    <style>
+        body{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-size: x-large;
+        background-color: #D8CCA3;
+        display: flex;
+        flex-direction: column;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+            text-align: center;
+            
+            color: #1A4D2E;
+        }
+        p{
+            font-size: x-large;
+        }
+        .attribution { 
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            transform: translateY(100%);
+            transition: .4s;
+            padding: 20px;
+            background: white;
+            text-align: center;
+        }
+        .attribution:hover{
+            transform: translateY(0);
+        }
+
+        .attribution:before { 
+            content: '';
+            width: 100%;
+            height: 50px;
+            position: absolute;
+            bottom: 100%;
+            left: 0;
+            z-index: 10;
+        }
+        .link{
+            text-decoration: none;
+        }
+
+    </style>
+</head>
+<body class="col-md-6">
+    <h1> Movie - Server 😎 </h1><hr>
+    <h2>HOW TO GET THE MOVIES ?</h2>
+    <p>Follow this Steps!</p>
+    <ul>
+        <li>Use the GET method on <strong>'/movie'</strong>, and you will get the movies</li>
+        <li>Use the POST method on<strong>'/movie'</strong>, and pass the data in query, i.e. name & year To save.</li>
+    </ul>
+</body>
+<footer>
+    <div class="attribution">
+        Coded by <a class="link" href="https://harsha094.github.io/personal-website/">Harsh Raghuwanshi</a>.
+    </div>
+</footer>
+</html>
